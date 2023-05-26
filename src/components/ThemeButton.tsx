@@ -1,4 +1,4 @@
-import { ColorScheme, useMantineColorScheme } from "@mantine/core";
+import { useMantineColorScheme } from "@mantine/core";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 

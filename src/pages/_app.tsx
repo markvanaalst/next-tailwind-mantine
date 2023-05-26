@@ -2,8 +2,8 @@ import "@/styles/globals.css";
 import { AppProps } from "next/app";
 import Head from "next/head";
 import { ColorScheme, ColorSchemeProvider, MantineProvider } from "@mantine/core";
-import { ThemeProvider, useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+import { ThemeProvider } from "next-themes";
+import { useState } from "react";
 
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
   const [colorScheme, setColorScheme] = useState<ColorScheme>("light");
